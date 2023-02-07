@@ -64,7 +64,7 @@ const AlatLab = () => {
                         aria-hidden
                         class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                       ></span>
-                      <span class="relative">Paid</span>
+                      <span class="relative">Ready</span>
                     </span>
                   </td>
                   <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-right">
@@ -117,7 +117,7 @@ const AlatLab = () => {
                         aria-hidden
                         class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                       ></span>
-                      <span class="relative">Paid</span>
+                      <span class="relative">Ready</span>
                     </span>
                   </td>
                   <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-right">
@@ -170,7 +170,7 @@ const AlatLab = () => {
                         aria-hidden
                         class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"
                       ></span>
-                      <span class="relative">Pending</span>
+                      <span class="relative">Not Available</span>
                     </span>
                   </td>
                   <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-right">
@@ -221,7 +221,7 @@ const AlatLab = () => {
                         aria-hidden
                         class="absolute inset-0 bg-red-200 opacity-50 rounded-full"
                       ></span>
-                      <span class="relative">Overdue</span>
+                      <span class="relative">In Maintanance</span>
                     </span>
                   </td>
                   <td class="px-5 py-5 bg-white text-sm text-right">
