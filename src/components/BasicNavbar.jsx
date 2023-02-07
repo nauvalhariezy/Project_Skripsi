@@ -28,13 +28,13 @@ export const BasicNavbar = (_props) => {
         <NavLink to={'/'} onClick={()=>setActiveMenu('dashboard_main')} className={`${activeMenu === 'dashboard_main' ? 'font-bold text-white' : 'text-gray-300'} items-center p-2 hover:bg-blue-700 rounded text-lg px-4`}> 
           Home
         </NavLink>
-        <NavLink to={'/menu2'} onClick={()=>setActiveMenu('menu2')} className={`${activeMenu === 'menu2' ? 'text-white' : 'text-gray-300'} items-center p-2 hover:bg-blue-700 rounded text-lg px-4`}> 
+        <NavLink to={'/alatlab'} onClick={()=>setActiveMenu('alatlab')} className={`${activeMenu === 'alatlab' ? 'text-white' : 'text-gray-300'} items-center p-2 hover:bg-blue-700 rounded text-lg px-4`}> 
           Alat Lab
         </NavLink>
-        <NavLink to={'/menu3'} onClick={()=>setActiveMenu('menu3')} className={`${activeMenu === 'menu3' ? 'text-white' : 'text-gray-300'} items-center p-2 hover:bg-blue-700 rounded text-lg px-4`}> 
+        <NavLink to={'/labpage'} onClick={()=>setActiveMenu('labpage')} className={`${activeMenu === 'labpage' ? 'text-white' : 'text-gray-300'} items-center p-2 hover:bg-blue-700 rounded text-lg px-4`}> 
           Laboratorium
         </NavLink>
-        <NavLink to={'/menu3'} onClick={()=>setActiveMenu('menu3')} className={`${activeMenu === 'menu3' ? 'text-white' : 'text-gray-300'} items-center p-2 hover:bg-blue-700 rounded text-lg px-4`}> 
+        <NavLink to={'/loginpage'} onClick={()=>setActiveMenu('loginpage')} className={`${activeMenu === 'loginpage' ? 'text-white' : 'text-gray-300'} items-center p-2 hover:bg-blue-700 rounded text-lg px-4`}> 
           Login
         </NavLink>
       </div>
